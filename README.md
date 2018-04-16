@@ -1,0 +1,2 @@
+# PraktiMax
+Praktikum für Max
