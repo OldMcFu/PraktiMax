@@ -1,0 +1,37 @@
+\documentclass[fleqn,10pt]{SelfArx} % Beginn der LaTeX-Datei
+
+\input{packages.tex}
+
+%\input{pageStyle.tex}
+
+%----------------------------------------------------------------------------------------
+%	Abstract
+%----------------------------------------------------------------------------------------
+
+\Abstract{\input{abstraction.tex}}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+\begin{document}
+\flushbottom % Makes all text pages the same height
+
+\maketitle % Print the title and abstract box
+
+\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+\input{content.tex}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+\phantomsection
+\bibliographystyle{unsrt}
+\bibliography{sample}
+
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
