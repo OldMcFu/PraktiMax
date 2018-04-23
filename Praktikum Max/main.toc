@@ -3,6 +3,8 @@
 \contentsline {subsection}{\numberline {1.1}Python}{1}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Raspberry Pi und Minecraft}{1}{subsection.1.2}
 \contentsline {section}{\numberline {2}How to start}{1}{section.2}
-\contentsline {section}{\numberline {3}Python}{1}{section.3}
-\contentsline {section}{Literatur}{1}{section*.1}
+\contentsline {section}{\numberline {3}Programmierung mit Python}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}Den Spieler teleportieren}{2}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Weiter wichtige Funktionen}{3}{subsection.3.2}
+\contentsline {section}{Literatur}{4}{section*.9}
 \contentsfinish 

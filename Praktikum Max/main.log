@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  22 APR 2018 22:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  23 APR 2018 21:40
 entering extended mode
 **./main.tex
 (main.tex
@@ -832,7 +832,68 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `colorlinks' set `true' on input line 23.
 Package hyperref Info: Option `breaklinks' set `true' on input line 23.
 Package hyperref Info: Option `bookmarksopen' set `false' on input line 23.
-) (main.aux)
+
+("C:\Users\Romer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count127
+\float@exts=\toks26
+\float@box=\box30
+\@float@everytoks=\toks27
+\@floatcapt=\box31
+)
+("C:\Users\Romer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
+sty"
+\lst@mode=\count128
+\lst@gtempboxa=\box32
+\lst@token=\toks28
+\lst@length=\count129
+\lst@currlwidth=\dimen158
+\lst@column=\count130
+\lst@pos=\count131
+\lst@lostspace=\dimen159
+\lst@width=\dimen160
+\lst@newlines=\count132
+\lst@lineno=\count133
+\lst@maxwidth=\dimen161
+
+("C:\Users\Romer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.s
+ty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count134
+\lst@skipnumbers=\count135
+\lst@framebox=\box33
+)
+("C:\Users\Romer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
+cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+) (main.aux
+
+LaTeX Warning: Label `lst:code_direct' multiply defined.
+
+
+LaTeX Warning: Label `lst:code_direct' multiply defined.
+
+
+LaTeX Warning: Label `lst:code_direct' multiply defined.
+
+
+LaTeX Warning: Label `lst:code_direct' multiply defined.
+
+
+LaTeX Warning: Label `lst:code_direct' multiply defined.
+
+
+LaTeX Warning: Label `lst:code_direct' multiply defined.
+
+
+LaTeX Warning: Label `lst:code_direct' multiply defined.
+
+
+LaTeX Warning: Label `lst:code_direct' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -850,24 +911,23 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 16.
-
-("C:\Users\Romer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+ ("C:\Users\Romer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ("C:\Users\Romer\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count127
-\scratchdimen=\dimen158
-\scratchbox=\box30
-\nofMPsegments=\count128
-\nofMParguments=\count129
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count130
-\MPscratchDim=\dimen159
-\MPnumerator=\count131
-\makeMPintoPDFobject=\count132
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count136
+\scratchdimen=\dimen162
+\scratchbox=\box34
+\nofMPsegments=\count137
+\nofMParguments=\count138
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count139
+\MPscratchDim=\dimen163
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
+\everyMPtoPDFconversion=\toks30
 )
 ("C:\Users\Romer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
 base.sty"
@@ -919,7 +979,9 @@ G,.JBIG2,.JB2,.eps]
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
@@ -939,7 +1001,7 @@ Package microtype Info: No adjustment of character kerning.
 fg"
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-\AtBeginShipoutBox=\box31
+\AtBeginShipoutBox=\box35
 Package hyperref Info: Link coloring ON on input line 16.
 
 ("C:\Users\Romer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.s
@@ -950,7 +1012,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count133
+\c@section@level=\count142
 )
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
@@ -959,6 +1021,7 @@ LaTeX Info: Redefining \nameref on input line 16.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
+\c@lstlisting=\count143
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 20.
 
 ("C:\Users\Romer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
@@ -1059,44 +1122,202 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<Bilder/raspberry.png, id=41, 1194.864pt x 844.5954pt>
-File: Bilder/raspberry.png Graphic file (type png)
-<use Bilder/raspberry.png>
-Package pdftex.def Info: Bilder/raspberry.png  used on input line 5.
-(pdftex.def)             Requested size: 350.33727pt x 247.63275pt.
-)
-Overfull \hbox (122.91982pt too wide) in paragraph at lines 5--6
-[][]
+<Bilder/Raspi_Start_Bildschirm.png, id=53, 770.12718pt x 578.91281pt>
+File: Bilder/Raspi_Start_Bildschirm.png Graphic file (type png)
+<use Bilder/Raspi_Start_Bildschirm.png>
+Package pdftex.def Info: Bilder/Raspi_Start_Bildschirm.png  used on input line 
+5.
+(pdftex.def)             Requested size: 250.24199pt x 188.1091pt.
+
+Overfull \hbox (7.82454pt too wide) in paragraph at lines 5--6
+[][] 
+ []
+
+<Bilder/Raspi_Mincraft_Start.png, id=55, 687.31781pt x 369.63094pt>
+File: Bilder/Raspi_Mincraft_Start.png Graphic file (type png)
+<use Bilder/Raspi_Mincraft_Start.png>
+Package pdftex.def Info: Bilder/Raspi_Mincraft_Start.png  used on input line 9.
+
+(pdftex.def)             Requested size: 250.24199pt x 134.57294pt.
+
+Overfull \hbox (7.82454pt too wide) in paragraph at lines 9--10
+[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 11.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 11.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 11.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 11.
+ [1{C:/Users/Romer/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-(Python.tex
+
+ <./Bilder/Raspi_Start_Bildschirm.png>]) (Python.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
+<Bilder/mal_eben_ein_skript_schreiben.jpg, id=69, 144.54pt x 144.54pt>
+File: Bilder/mal_eben_ein_skript_schreiben.jpg Graphic file (type jpg)
+<use Bilder/mal_eben_ein_skript_schreiben.jpg>
+Package pdftex.def Info: Bilder/mal_eben_ein_skript_schreiben.jpg  used on inpu
+t line 5.
+(pdftex.def)             Requested size: 250.24199pt x 250.25583pt.
+
+Overfull \hbox (7.82454pt too wide) in paragraph at lines 5--6
+[][] 
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 9.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 9.
+
+("C:\Users\Romer\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.
+sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 23.
+<Bilder/Mincraft_position.png, id=70, 637.63219pt x 364.36125pt>
+File: Bilder/Mincraft_position.png Graphic file (type png)
+<use Bilder/Mincraft_position.png>
+Package pdftex.def Info: Bilder/Mincraft_position.png  used on input line 32.
+(pdftex.def)             Requested size: 250.24199pt x 142.99542pt.
+
+Overfull \hbox (7.82454pt too wide) in paragraph at lines 32--33
+[][] 
+ []
+
+<Bilder/dreidimensionalem_Raum.png, id=71, 420.82219pt x 420.06938pt>
+File: Bilder/dreidimensionalem_Raum.png Graphic file (type png)
+<use Bilder/dreidimensionalem_Raum.png>
+Package pdftex.def Info: Bilder/dreidimensionalem_Raum.png  used on input line 
+37.
+(pdftex.def)             Requested size: 250.24199pt x 249.79376pt.
+
+Overfull \hbox (7.82454pt too wide) in paragraph at lines 37--38
+[][] 
+ []
+
+<Bilder/Thonny_Python_IDE.png, id=72, 1375.38844pt x 703.12688pt>
+File: Bilder/Thonny_Python_IDE.png Graphic file (type png)
+<use Bilder/Thonny_Python_IDE.png>
+Package pdftex.def Info: Bilder/Thonny_Python_IDE.png  used on input line 44.
+(pdftex.def)             Requested size: 250.24199pt x 127.91994pt.
+
+Overfull \hbox (7.82454pt too wide) in paragraph at lines 44--45
+[][] 
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 46.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 46.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 46.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 46.
+[2 <./Bilder/Raspi_Mincraft_Start.png> <./Bilder/mal_eben_ein_skript_schreiben.
+jpg> <./Bilder/Mincraft_position.png> <./Bilder/dreidimensionalem_Raum.png>]
+<Bilder/Bildschirm_Anordnung.png, id=89, 1374.63562pt x 700.86844pt>
+File: Bilder/Bildschirm_Anordnung.png Graphic file (type png)
+<use Bilder/Bildschirm_Anordnung.png>
+Package pdftex.def Info: Bilder/Bildschirm_Anordnung.png  used on input line 49
+.
+(pdftex.def)             Requested size: 250.24199pt x 127.58392pt.
+
+Overfull \hbox (7.82454pt too wide) in paragraph at lines 49--50
+[][] 
+ []
+
+<Bilder/Erstes_Programm.png, id=90, 688.82344pt x 371.13657pt>
+File: Bilder/Erstes_Programm.png Graphic file (type png)
+<use Bilder/Erstes_Programm.png>
+Package pdftex.def Info: Bilder/Erstes_Programm.png  used on input line 78.
+(pdftex.def)             Requested size: 250.24199pt x 134.82661pt.
+
+Overfull \hbox (7.82454pt too wide) in paragraph at lines 78--79
+[][] 
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 101.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 101.
+
+Overfull \hbox (1.50981pt too wide) in paragraph at lines 124--126
+\OT1/ptm/m/n/10 (-20) BLE-STO-NE, WOOD[]PLANKS, SAP-LING, BE-D-ROCK, WA-
+ []
+
+
+Overfull \hbox (38.3349pt too wide) in paragraph at lines 124--126
+\OT1/ptm/m/n/10 (-20) TER[]FLOWING, WA-TER, WA-TER[]STATIONARY, LA-VA[]FLOWING,
+
+ []
+
+
+Overfull \hbox (2.56279pt too wide) in paragraph at lines 124--126
+\OT1/ptm/m/n/10 (-20) LA-VA, LA-VA[]STATIONARY, SAND, GRA-VEL, GOLD[]ORE,
+ []
+
+
+Overfull \hbox (27.33763pt too wide) in paragraph at lines 124--126
+\OT1/ptm/m/n/10 (-20) NE, BED, COB-WEB, GRASS[]TALL, WOOL, FLOWER[]YELLOW,
+ []
+
+
+Overfull \hbox (14.73253pt too wide) in paragraph at lines 124--126
+\OT1/ptm/m/n/10 (-20) FLOWER[]CYAN, MUSHROOM[]BROWN, MUSHROOM[]RED,
+ []
+
+
+Overfull \hbox (39.89111pt too wide) in paragraph at lines 124--126
+\OT1/ptm/m/n/10 (-20) STO-NE[]SLAB, BRICK[]BLOCK, TNT, BOOKS-HELF, MOSS[]STONE,
+
+ []
+
+
+Overfull \hbox (2.66293pt too wide) in paragraph at lines 124--126
+\OT1/ptm/m/n/10 (-20) DOOR[]WOOD, LAD-DER, RAIL, STAIRS[]COBBLESTONE,
+ []
+
+
+Overfull \hbox (13.97418pt too wide) in paragraph at lines 124--126
+\OT1/ptm/m/n/10 (-20) DOOR[]IRON, RED-STO-NE[]ORE, SNOW, ICE, SNOW[]BLOCK,
+ []
+
+
+Overfull \hbox (30.5506pt too wide) in paragraph at lines 124--126
+\OT1/ptm/m/n/10 (-20) CAC-TUS, CLAY, SU-GAR[]CANE, FENCE, GLOW-STO-NE[]BLOCK,
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 134.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 134.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 134.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 134.
+[3 <./Bilder/Thonny_Python_IDE.png> <./Bilder/Bildschirm_Anordnung.png> <./Bild
+er/Erstes_Programm.png>]
+Overfull \hbox (2.38504pt too wide) in paragraph at lines 135--136
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
 ) (ersteSchritte.tex)) (main.bbl
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 6.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 6.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 6.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 6.
- [1{C:/Users/Romer/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
- <./Bilder/raspberry.png>])
-
+) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 37.
@@ -1106,7 +1327,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 37.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 37.
-[2
+[4
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -1119,27 +1340,34 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1A8531FC06E651ECD3A958FCCDC43D5F;314.
+(rerunfilecheck)             Checksum: E6F4FC0DFA96F4FF2117633A4D380E33;484.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 11549 strings out of 493305
- 175877 string characters out of 3129802
- 313489 words of memory out of 3000000
- 14773 multiletter control sequences out of 15000+200000
- 54675 words of font info for 158 fonts, out of 3000000 for 9000
+ 13555 strings out of 493305
+ 202499 string characters out of 3129802
+ 358419 words of memory out of 3000000
+ 16638 multiletter control sequences out of 15000+200000
+ 61867 words of font info for 207 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,51p,454b,490s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,51p,935b,1198s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Romer/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
-}<C:/Users/Romer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhv
-b8a.pfb><C:/Users/Romer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helve
-tic/uhvr8a.pfb><C:/Users/Romer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
-w/helvetic/uhvro8a.pfb><C:/Users/Romer/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/urw/times/utmb8a.pfb><C:/Users/Romer/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (2 pages, 761707 bytes).
+}<C:/Users/Romer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Users/Romer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/symbols/msam10.pfb><C:/Users/Romer/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Romer/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Romer/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Romer/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Romer/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Romer/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (4 pages, 6475061 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 50230 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 56425 words of extra memory for PDF output out of 61914 (max. 10000000)
 
