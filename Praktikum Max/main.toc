@@ -6,5 +6,7 @@
 \contentsline {section}{\numberline {3}Programmierung mit Python}{2}{section.3}
 \contentsline {subsection}{\numberline {3.1}Den Spieler teleportieren}{2}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Weiter wichtige Funktionen}{3}{subsection.3.2}
-\contentsline {section}{Literatur}{4}{section*.9}
+\contentsline {subsection}{\numberline {3.3}Weitere hilfreiche Python Befehele}{4}{subsection.3.3}
+\contentsline {section}{\numberline {4}Wir bauen eine Burg}{5}{section.4}
+\contentsline {section}{Literatur}{5}{section*.9}
 \contentsfinish 

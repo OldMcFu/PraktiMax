@@ -17,8 +17,8 @@ Variablen gestatten dir das Speichern von Daten, die du an späterer Stelle im P
 
 \lstset{language=Python}
 \lstset{frame=lines}
-\lstset{caption={Insert code directly in your document}}
-\lstset{label={lst:code_direct}}
+\lstset{caption={Die Variable juckel}}
+\lstset{label={lst:var_juckel}}
 \lstset{basicstyle=\footnotesize}
 \begin{lstlisting}
 juckel = 3
@@ -53,8 +53,8 @@ Nun schreiben wir in das linke Fenster unser erstes Programm. Dies sieht wie fol
 
 \lstset{language=Python}
 \lstset{frame=lines}
-\lstset{caption={Insert code directly in your document}}
-\lstset{label={lst:code_direct}}
+\lstset{caption={Teleportation des Spielers}}
+\lstset{label={lst:tele_player}}
 \lstset{basicstyle=\footnotesize}
 \begin{lstlisting}
 # Verbindung mit Minecraft herstellen
@@ -82,8 +82,8 @@ Drücken wir nun den grünen Kreis mit dem weißen Pfeil wird unser Programm aus
 Natürlich kannst du auch anstelle von Integer-Variablen auch Float-Variablen vergeben. Float-Variablen sind Zahlen mit Nachkommastellen, wie z.B. 1.34 (Wichtig für das Komma ein Punkt setzen, da man das so in England macht und beim Programmieren ist Englisch die Hauptsprache). Dann sieht unsere obiges Beispiel mit juckel so aus:
 \lstset{language=Python}
 \lstset{frame=lines}
-\lstset{caption={Insert code directly in your document}}
-\lstset{label={lst:code_direct}}
+\lstset{caption={Die Variable juckel als float}}
+\lstset{label={lst:vari_juckel_float}}
 \lstset{basicstyle=\footnotesize}
 \begin{lstlisting}
 juckel = 1.34
@@ -104,55 +104,191 @@ juckel = -1.34
 Mit dieser Funktion kannst du an Position x, y, z ein Block entfernen.
 \lstset{language=Python}
 \lstset{frame=lines}
-\lstset{caption={Insert code directly in your document}}
-\lstset{label={lst:code_direct}}
+\lstset{caption={Entferne Block}}
+\lstset{label={lst:block_rem}}
 \lstset{basicstyle=\footnotesize}
 \begin{lstlisting}
-world.getBlock(x, y, z)
+from mcpi.minecraft import Minecraft
+from mcpi import block
+
+mc = Minecraft.create()
+
+x = 1
+y = 2
+z = 3
+
+mc.getBlock(x, y, z)
 \end{lstlisting}
 
 Mit dieser Funktion kannst du an Position x, y, z ein Block setzen.
 \lstset{language=Python}
 \lstset{frame=lines}
-\lstset{caption={Insert code directly in your document}}
-\lstset{label={lst:code_direct}}
+\lstset{caption={Setze Block}}
+\lstset{label={lst:set_block}}
 \lstset{basicstyle=\footnotesize}
 \begin{lstlisting}
-world.setBlock(x, y, z, block_type)
+from mcpi.minecraft import Minecraft
+from mcpi import block
+
+mc = Minecraft.create()
+x = 1.1
+y = 2.2
+z = 3.3
+block_type = block.DOOR_IRON.id
+
+mc.setBlock(x, y, z, block.STONE.id)
 \end{lstlisting}
 
  Wichtig ist damit du für block\_type einen der folgenden Block Namen einsetzt:
- AIR, STONE, GRASS, DIRT, COBBLESTONE, WOOD\_PLANKS, SAPLING, BEDROCK, WATER\_FLOWING, WATER, WATER\_STATIONARY, LAVA\_FLOWING, LAVA, LAVA\_STATIONARY, SAND, GRAVEL, GOLD\_ORE, IRON\_ORE, COAL\_ORE, WOOD, LEAVES, GLASS, LAPIS\_LAZULI\_ORE, LAPIS\_LAZULI\_BLOCK, SANDSTONE, BED, COBWEB, GRASS\_TALL, WOOL, FLOWER\_YELLOW, FLOWER\_CYAN, MUSHROOM\_BROWN, MUSHROOM\_RED, GOLD\_BLOCK, IRON\_BLOCK, STONE\_SLAB\_DOUBLE, STONE\_SLAB, BRICK\_BLOCK, TNT, BOOKSHELF, MOSS\_STONE, OBSIDIAN, TORCH, FIRE, STAIRS\_WOOD, CHEST, DIAMOND\_ORE, DIAMOND\_BLOCK, CRAFTING\_TABLE, FARMLAND, FURNACE\_INACTIVE, FURNACE\_ACTIVE, DOOR\_WOOD, LADDER, RAIL, STAIRS\_COBBLESTONE, DOOR\_IRON, REDSTONE\_ORE, SNOW, ICE, SNOW\_BLOCK, CACTUS, CLAY, SUGAR\_CANE, FENCE, GLOWSTONE\_BLOCK, BEDROCK\_INVISIBLE, STONE\_BRICK, GLASS\_PANE, MELON, FENCE\_GATE, GLOWING\_OBSIDIAN und NETHER\_REACTOR\_CORE.
+ AIR, STONE, GRASS, DIRT, COBBLESTONE, \\
+ WOOD\_PLANKS, SAPLING, BEDROCK, \\
+ WATER\_FLOWING, WATER, WATER\_STATIONARY,\\
+ LAVA\_FLOWING, LAVA, LAVA\_STATIONARY,\\
+ SAND, GRAVEL, GOLD\_ORE, IRON\_ORE, \\
+ COAL\_ORE, WOOD, LEAVES, GLASS, \\
+ LAPIS\_LAZULI\_ORE, LAPIS\_LAZULI\_BLOCK, \\
+ SANDSTONE, BED, COBWEB, GRASS\_TALL, WOOL, \\
+ FLOWER\_YELLOW, FLOWER\_CYAN, \\
+ MUSHROOM\_BROWN, MUSHROOM\_RED, GOLD\_BLOCK, \\
+ IRON\_BLOCK, STONE\_SLAB\_DOUBLE, STONE\_SLAB,\\
+  BRICK\_BLOCK, TNT, BOOKSHELF,\\
+ MOSS\_STONE, OBSIDIAN, TORCH, FIRE, \\
+ STAIRS\_WOOD, CHEST, DIAMOND\_ORE, \\
+ DIAMOND\_BLOCK, CRAFTING\_TABLE, FARMLAND, \\
+ FURNACE\_INACTIVE, FURNACE\_ACTIVE, DOOR\_WOOD, \\
+ LADDER, RAIL, STAIRS\_COBBLESTONE, DOOR\_IRON, \\
+ REDSTONE\_ORE, SNOW, ICE, SNOW\_BLOCK, CACTUS, \\
+ CLAY, SUGAR\_CANE, FENCE, GLOWSTONE\_BLOCK, \\
+ BEDROCK\_INVISIBLE, STONE\_BRICK, GLASS\_PANE, \\
+ MELON, FENCE\_GATE, GLOWING\_OBSIDIAN \\
+ und NETHER\_REACTOR\_CORE.\\
  
- Mit dieser Funktion kannst du gleich mehrere Block auf einmal setzen. Hier Baut das Programm dir alles zu von x1 bis x2 und von y1 bis y2 und von z1 bis z2.
+ Mit der nächsten Funktion kannst du gleich mehrere Block auf einmal setzen. Hier Baut das Programm dir alles zu von x1 bis x2 und von y1 bis y2 und von z1 bis z2.
 
 \lstset{language=Python}
 \lstset{frame=lines}
-\lstset{caption={Insert code directly in your document}}
-\lstset{label={lst:code_direct}}
+\lstset{caption={Setze einen Block haufen}}
+\lstset{label={lst:set_multi_block}}
 \lstset{basicstyle=\footnotesize}
 \begin{lstlisting}
-world.setBlocks(x1, y1, z1, x2, y2, z2, block_type)
+from mcpi.minecraft import Minecraft
+from mcpi import block
+
+mc = Minecraft.create()
+
+x1 = 50
+y1 = 50
+z1 = 50
+x2 = 50
+y2 = 50
+z2 = 50
+block_type = block.DOOR_IRON.id
+
+mc.setBlocks(x1, y1, z1, x2, y2, z2, block_type)
 \end{lstlisting}
 
 Diese Funktion gibt dir den höchsten Block auf der Stelle x, z zurück. 
 
 \lstset{language=Python}
 \lstset{frame=lines}
-\lstset{caption={Insert code directly in your document}}
-\lstset{label={lst:code_direct}}
+\lstset{caption={Wie hoch ist der Block}}
+\lstset{label={lst:get_high}}
 \lstset{basicstyle=\footnotesize}
 \begin{lstlisting}
- world.getHeight(x, z)
+from mcpi.minecraft import Minecraft
+from mcpi import block
+
+mc = Minecraft.create()
+
+x = 50
+z = 50
+y = mc.getHeight(x, z)
 \end{lstlisting}
 
-Mit dieser Funktion kannst du Nachrichten schreiben im Spiel.
+Mit dieser Funktion kannst du Nachrichten im Spiel schreiben. Dazu einfach für Message einfügen was du möchtest.
 
 \lstset{language=Python}
 \lstset{frame=lines}
-\lstset{caption={Insert code directly in your document}}
-\lstset{label={lst:code_direct}}
+\lstset{caption={Setze eine Nachricht}}
+\lstset{label={lst:set_msg}}
 \lstset{basicstyle=\footnotesize}
 \begin{lstlisting}
-world.postToChat("Message")
+from mcpi.minecraft import Minecraft
+from mcpi import block
+
+mc = Minecraft.create()
+
+mc.postToChat("Message")
 \end{lstlisting}
+
+\subsection{Weitere hilfreiche Python Befehele}
+Hier findest du noch weitere hilfreiche Befehle wie zum Beispiele eine Schleife:
+
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={Eine Schleife}}
+\lstset{label={lst:while_loop}}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+# Verbindung mit Minecraft herstellen
+import time
+from mcpi.minecraft import Minecraft
+from mcpi import block
+
+mc = Minecraft.create()
+
+n = 30   
+i = 1
+block_type = block.STONE.id
+
+mc.player.setTilePos(-1, 50, -1)
+
+while i <= n:
+	mc.setBlock(0, i, 0, block_type)
+	i = i + 1
+	# Warte eine sekunde bevor es weiter geht
+	time.sleep(1)				
+
+mc.postToChat("Huhu ich habe ein Turm gebaut :)")
+\end{lstlisting}
+Mit einer Schleife ist es dir möglich immer die gleichen Sachen auszuführen. Da dein Programm zu schnell ist habe ich noch ein time.sleep(1) eingebaut. Dadurch wartet dein Programm eine Sekunde bevor es weiter geht. Insgesamt baut dir dieses Programm einen Turm aus $n$ Blöcke (also hier 30 Stück).
+
+Der nächste wichtige Befehl ist eine if (if heißt auf deutsch wenn) abfrage.
+
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={Eine Schleife mit if Bedingung}}
+\lstset{label={lst:while_loop_if}}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+# Verbindung mit Minecraft herstellen
+import time
+from mcpi.minecraft import Minecraft
+from mcpi import block
+
+mc = Minecraft.create()
+
+n = 30   
+i = 1
+block_type = block.STONE.id
+
+mc.player.setTilePos(-1, 50, -1)
+
+while i <= n:
+
+	if i < 15:
+		mc.setBlock(0, i, 0, block.STONE.id)
+	else:
+		mc.setBlock(0, i, 0, block.GRASS.id)
+		
+	i = i + 1
+	# Warte eine sekunde bevor es weiter geht
+	time.sleep(1)				
+	
+
+mc.postToChat("Huhu ich habe 
+ein Turm aus zwei Bloecke gebaut :) ")
+\end{lstlisting}
+
+
+
